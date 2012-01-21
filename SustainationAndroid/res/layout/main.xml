@@ -15,6 +15,6 @@
 			<TextView a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_gravity="center_vertical"  a:textSize="15sp" a:text="Location:" a:textColor="#42210B" />
 			<EditText a:id="@+id/add_business_location" a:layout_width="fill_parent" a:layout_height="wrap_content" a:width="180sp" a:layout_gravity="left"  a:padding="5sp"/>
 		</TableRow>
-		<Button a:id="@+id/add_business_sublit" a:layout_height="wrap_content" a:layout_width="fill_parent" a:text="Save" />
+		<Button a:id="@+id/add_business_submit" a:onClick="onSubmitClick" a:layout_height="wrap_content" a:layout_width="fill_parent" a:text="Save" />
 	</TableLayout>
 </LinearLayout>
