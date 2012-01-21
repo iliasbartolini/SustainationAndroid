@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="fill_parent" a:background="@color/background">
+	<ImageView a:layout_width="fill_parent" a:layout_height="wrap_content" a:src="@drawable/banner_alt" a:adjustViewBounds="true" />
+	<TextView a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/hello"  />
 </LinearLayout>
