@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Sustaination!</string>
+    <string name="add_a_new_business">Add a New Business</string>
     <string name="app_name">Sustaination</string>
     <string name="crash_toast_text">This application crashed, but a report has been sent to the developers to help them fix the issue!</string>
 </resources>

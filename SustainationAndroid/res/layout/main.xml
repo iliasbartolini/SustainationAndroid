@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="fill_parent" a:background="@color/background">
-	<ImageView a:layout_width="fill_parent" a:layout_height="wrap_content" a:src="@drawable/banner_alt" a:adjustViewBounds="true" />
-	<TextView a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/hello"  />
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android" a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="fill_parent" a:padding="10px" a:background="@color/background">
+	<ImageView a:layout_width="fill_parent" a:layout_height="wrap_content" a:padding="5px" a:src="@drawable/banner_alt" a:adjustViewBounds="false" a:layout_gravity="top"/>
+	<TextView a:layout_width="fill_parent" a:textStyle="bold" a:textSize="20sp" a:layout_height="wrap_content" a:text="@string/add_a_new_business" a:textColor="#42210B" a:background="@color/background"/>
+	<TableLayout  a:orientation="horizontal" a:layout_width="fill_parent" a:layout_height="fill_parent" a:paddingTop="10px">
+ 		<TableRow  a:orientation="horizontal" a:layout_width="fill_parent" a:layout_height="fill_parent">
+			<TextView a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_gravity="center_vertical" a:textSize="15sp" a:text="Name:" a:textColor="#42210B" />
+			<EditText a:id="@+id/add_business_name" a:layout_width="fill_parent" a:layout_height="wrap_content" a:width="180sp" a:layout_gravity="left" a:padding="5sp" />
+		</TableRow>
+ 		<TableRow  a:orientation="horizontal" a:layout_width="fill_parent" a:layout_height="fill_parent">
+			<TextView a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_gravity="center_vertical"  a:textSize="15sp" a:text="Type:" a:textColor="#42210B" />
+			<EditText a:id="@+id/add_business_type" a:layout_width="fill_parent" a:layout_height="wrap_content" a:width="180sp" a:layout_gravity="left"  a:padding="5sp"/>
+		</TableRow>
+ 		<TableRow  a:orientation="horizontal" a:layout_width="fill_parent" a:layout_height="fill_parent">
+			<TextView a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_gravity="center_vertical"  a:textSize="15sp" a:text="Location:" a:textColor="#42210B" />
+			<EditText a:id="@+id/add_business_location" a:layout_width="fill_parent" a:layout_height="wrap_content" a:width="180sp" a:layout_gravity="left"  a:padding="5sp"/>
+		</TableRow>
+		<Button a:id="@+id/add_business_sublit" a:layout_height="wrap_content" a:layout_width="fill_parent" a:text="Save" />
+	</TableLayout>
 </LinearLayout>

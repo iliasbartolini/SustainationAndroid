@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="add_business_name" />
+  <item type="id" name="add_business_type" />
+  <item type="id" name="add_business_location" />
+  <item type="id" name="add_business_submit" />
+</resources>
