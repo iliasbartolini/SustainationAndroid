@@ -1,0 +1,18 @@
+
+# common junk
+.DS_Store
+*~
+Thumbs.db
+
+# binary directory
+bin/
+
+# android auto generated files directory
+gen/
+
+# eclipse settings
+.settings/
+local.properties
+
+# build key and user/password
+*.keystore
